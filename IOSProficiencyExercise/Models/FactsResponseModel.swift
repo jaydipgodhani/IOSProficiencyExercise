@@ -10,16 +10,16 @@ import Foundation
 // MARK: - FactsResponseModel
 struct FactsResponseModel: Codable {
     let title: String
-    let rows: [FactsRow]
+    let facts: [Facts]
 
     enum CodingKeys: String, CodingKey {
         case title = "title"
-        case rows = "rows"
+        case facts = "rows"
     }
 }
 
 // MARK: - FactsRow
-struct FactsRow: Codable {
+struct Facts: Codable {
     let title: String?
     let rowDescription: String?
     let imageHref: String?

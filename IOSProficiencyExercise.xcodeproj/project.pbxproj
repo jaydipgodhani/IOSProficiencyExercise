@@ -17,6 +17,7 @@
 		5D67D48C2675D4760020BD5E /* API_Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67D48B2675D4760020BD5E /* API_Constant.swift */; };
 		5D67D4922675D6830020BD5E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67D4912675D6830020BD5E /* HomeViewModel.swift */; };
 		5D67D49B2675D6DC0020BD5E /* FactsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67D49A2675D6DC0020BD5E /* FactsResponseModel.swift */; };
+		5D67D4A926766A2B0020BD5E /* TblFactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D67D4A826766A2B0020BD5E /* TblFactsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5D67D48B2675D4760020BD5E /* API_Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Constant.swift; sourceTree = "<group>"; };
 		5D67D4912675D6830020BD5E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		5D67D49A2675D6DC0020BD5E /* FactsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsResponseModel.swift; sourceTree = "<group>"; };
+		5D67D4A826766A2B0020BD5E /* TblFactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblFactsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				5D67D46B2675CEF10020BD5E /* HomeViewController.swift */,
+				5D67D4A826766A2B0020BD5E /* TblFactsCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				5D67D4382675CEB70020BD5E /* AppDelegate.swift in Sources */,
 				5D67D46C2675CEF10020BD5E /* HomeViewController.swift in Sources */,
 				5D67D4922675D6830020BD5E /* HomeViewModel.swift in Sources */,
+				5D67D4A926766A2B0020BD5E /* TblFactsCell.swift in Sources */,
 				5D67D49B2675D6DC0020BD5E /* FactsResponseModel.swift in Sources */,
 				5D67D4842675D06F0020BD5E /* Webservice.swift in Sources */,
 			);
