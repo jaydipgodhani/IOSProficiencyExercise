@@ -9,15 +9,27 @@ import UIKit
 
 class HomeViewController: UITableViewController {
 
+    //MARK:- Variable
+    
+    //// Init the `HomeViewModel` for further user
+    let viewModel = HomeViewModel()
+    
+    //MARK:- Start
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        setDefaultProperties()
     }
+    
+    //// Use this function to set the default properties in viewDidLoad
+    private func setDefaultProperties() {
+        //// set the footer view as a blank view for remove unnecessary separation
+        self.tableView.tableFooterView = UIView()
+        
+        
+        //// Get facts
+        viewModel.getFacts()
+    }
+    
 
     // MARK: - Table view data source
 
